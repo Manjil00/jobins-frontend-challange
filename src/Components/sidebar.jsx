@@ -1,6 +1,6 @@
 import React from 'react'
 
-const sidebar = () => {
+const Sidebar = () => {
 return (
 <div className="sidebar h-full w-[15%] bg-white ">
 
@@ -51,4 +51,4 @@ return (
 )
 }
 
-export default sidebar
+export default Sidebar;
