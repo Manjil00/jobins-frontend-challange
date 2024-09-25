@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 
 //Components
-import Sidebar from './Components/sidebar';
-import TopNav from './Components/TopNav';
 import Section1 from './Components/Section1';
 import Section2 from './Components/Section2';
+import Sidebar from './Components/sidebar';
+import TopNav from './Components/TopNav';
+import Section3 from './Components/Section3';
 // import Progressbar from './Components/Progressbar';
 
 
@@ -16,12 +17,13 @@ const App = () => {
       <div className="main-container w-full bg-containerGray h-[100vh] flex">
 <Sidebar/>
 
-    <div className="container h-full w-[85%] mx-5 bg-containerGray">
+    <div className="container h-full w-[85%] md:mx-5 bg-containerGray">
 
     <TopNav/>
     <Section1/>
     <Section2/>
-
+    <Section3/>
+      
     
 
 
