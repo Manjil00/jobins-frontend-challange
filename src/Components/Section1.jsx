@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 
 //Components
 import Progressbar from './progressbar';
 //ICONS
-import { FaAngleDown } from "react-icons/fa6";
 import { FaChevronUp } from "react-icons/fa";
+import { FaAngleDown } from "react-icons/fa6";
 
 const Section1 = () => {
 return (

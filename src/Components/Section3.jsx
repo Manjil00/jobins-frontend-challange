@@ -63,11 +63,11 @@ return (
     
     </div>
 
-    <div className="List mt-5 greytext bg-red-800 h-auto w-full rounded-xl">
-    <div className="bgtable text-white overflow-x-auto rounded-xl overflow-hidden">
+    <div className="List mt-5 greytext bg-white h-auto w-full rounded-xl">
+    <div className="bgtable text-black font-mainfont overflow-x-auto rounded-xl overflow-hidden">
         <table className='LIST min-w-full'>
         <thead>
-            <tr className="w-full text-left bg-green-700">
+            <tr className="w-full text-left bg-white">
             <th className="p-2 md:p-4">ID</th>
             <th className="p-2 md:p-4">Customer</th>
             <th className="p-2 md:p-4">Date</th>

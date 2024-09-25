@@ -2,15 +2,15 @@ import React from 'react';
 
 const Sidebar = () => {
 return (
-<div className="sidebar h-full w-[35%] md:w-[20%] bg-white">
+<div className="sidebar h-full w-[35%] md:w-[14%] bg-white">
 
-<div className="Topbar mt-3 bg-white h-auto flex justify-start items-start w-full">
-<img src="../images/logo.png" className="ml-2 h-[20px] w-[20px] md:h-auto md-w-auto" alt="Logo"/>
+<div className="Topbar mt-3 h-auto flex justify-start items-start md:ml-4 w-full">
+<img src="../images/logo.png" className="ml-2 h-[20px] w-[20px] md:h-[40px] md:w-[40px]" alt="Logo"/>
 <h1 className='font-mainfont font-bold text-sm md:text-2xl md:ml-3'>Jobins</h1>
-<img src="../icons/indent-decrease.png" className="cursor-pointer h-[20px] w-[20px] md:h-auto md:w-auto ml-5 xl:ml-10" alt="indent"/>
+<img src="../icons/indent-decrease.png" className="cursor-pointer h-[20px] w-[20px] md:h-[30px] md:w-[30px] ml-5 xl:ml-10" alt="indent"/>
 </div>
 
-<div className="mainmenu mt-10 bg-white h-auto w-full flex flex-col justify-start">
+<div className="mainmenu mt-10 md:ml-4 h-auto w-full flex flex-col justify-start">
 <h2 className='greytext'>MAIN MENU</h2>
 
     <div className='Dash-Router flex mt-3'>
@@ -30,7 +30,7 @@ return (
 
 </div>
 
-<div className="PRODUCTS mt-10 bg-white h-auto w-full flex flex-col justify-start">
+<div className="PRODUCTS mt-10 md:ml-4 h-auto w-full flex flex-col justify-start">
 <h2 className='greytext'>PRODUCTS </h2>
 
     <div className='ADD-Router flex mt-3'>

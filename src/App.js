@@ -4,9 +4,9 @@ import React from 'react';
 //Components
 import Section1 from './Components/Section1';
 import Section2 from './Components/Section2';
+import Section3 from './Components/Section3';
 import Sidebar from './Components/sidebar';
 import TopNav from './Components/TopNav';
-import Section3 from './Components/Section3';
 // import Progressbar from './Components/Progressbar';
 
 
