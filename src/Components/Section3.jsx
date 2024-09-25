@@ -11,7 +11,32 @@ import { mockdata } from '../mockdata';
 
 const Section3 = () => {
 
-    const [search,setSearch]=useState('');
+const [search,setSearch]=useState('');
+
+const [currentPage, setCurrentPage] = useState(0);
+const itemsPerPage =5;
+
+const filteredData = mockdata.filter(item =>
+    search === '' ? true : item.Customer.toLowerCase().includes(search.toLowerCase())
+);
+
+const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+ // Start and End
+const startIndex = currentPage * itemsPerPage;
+const endIndex = startIndex + itemsPerPage;
+const currentData = mockdata.slice(startIndex, endIndex);
+
+    const handleNext = () => {
+    if (endIndex < mockdata.length) {
+        setCurrentPage(currentPage + 1);
+    }
+    };
+
+    const handlePrev = () => {
+    if (currentPage > 0) {
+        setCurrentPage(currentPage - 1);
+    }
+    };
 
 return (
     <div className="SearchandList">
@@ -53,7 +78,7 @@ return (
             </tr>
         </thead>
         <tbody>
-            {mockdata.filter((item)=>{
+            {currentData.filter((item)=>{
                 return search==='' ? item
                     : item.Customer.includes(search);}
                 ).map((item,ID) => (
@@ -73,10 +98,10 @@ return (
     
 
       {/* Pagination */}
-    <div className="flex justify-between items-center mt-4">
+    <div className=" paginationDropdown flex justify-between items-center mt-4">
         <div>
         <span>Showing</span>
-        <select className="ml-2 p-1 border rounded">
+        <select className="pageOptions ml-2 p-1 border rounded">
             <option>10</option>
             <option>20</option>
             <option>30</option>
@@ -86,14 +111,27 @@ return (
         <span className="ml-2">of 50</span>
         </div>
 
-        <div className="flex items-center space-x-2">
-        <button className="px-3 py-1 border rounded">&lt;</button>
+        <div className=" paginationsbtn flex items-center space-x-2">
+        <button className="px-3 py-1 border rounded" onClick={handlePrev} disabled={currentPage===0}>&lt;</button>
         <button className="px-3 py-1 border rounded bg-blue-500 text-white">1</button>
-        <button className="px-3 py-1 border rounded">2</button>
-        <button className="px-3 py-1 border rounded">3</button>
-        <button className="px-3 py-1 border rounded">4</button>
-        <button className="px-3 py-1 border rounded">5</button>
-        <button className="px-3 py-1 border rounded">&gt;</button>
+    
+        {Array.from({ length: 5 }, (_, index) => {
+          const pageNum = currentPage - 2 + index; // Center around currentPage
+        if (pageNum >= 0 && pageNum < totalPages) {
+            return (
+            <button
+                key={pageNum}
+                className={`px-3 py-1 border rounded ${currentPage === pageNum ? 'bg-blue-500 text-white' : ''}`}
+                onClick={() => setCurrentPage(pageNum)}
+            >
+                {pageNum + 1}
+            </button>
+            );
+        }
+          return null; // If pageNum is out of bounds, render nothing
+        })}
+
+        <button className="px-3 py-1 border rounded" onClick={handleNext} disabled={endIndex>=mockdata.length}>&gt;</button>
         </div>
     </div>
     </div>
@@ -103,4 +141,4 @@ return (
 )
 }
 
-export default Section3
+export default Section3;
