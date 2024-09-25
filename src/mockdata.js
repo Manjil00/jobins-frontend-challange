@@ -1,4 +1,4 @@
-export const data=[{"ID":1,"Customer":"Allina Gislebert","Date":"9/4/2024","Total":"$2536.24","Method":"CC","Status":"Pending"},
+export const mockdata=[{"ID":1,"Customer":"Allina Gislebert","Date":"9/4/2024","Total":"$2536.24","Method":"CC","Status":"Pending"},
     {"ID":2,"Customer":"Yevette Linwood","Date":"6/22/2024","Total":"$2609.25","Method":"CC","Status":"Pending"},
     {"ID":3,"Customer":"Terrijo Macguire","Date":"7/31/2024","Total":"$2752.47","Method":"CC","Status":"Pending"},
     {"ID":4,"Customer":"Rahel Horribine","Date":"7/11/2024","Total":"$2445.28","Method":"CC","Status":"Pending"},

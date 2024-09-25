@@ -19,7 +19,7 @@ return (
         </div>
         </div>
 
-        <div className="Filtercursor-pointer p-2 w-auto h-[30px] md:h-[40px] flex justify-center items-center gap-2 bg-white rounded-lg ">
+        <div className="Filter cursor-pointer p-2 w-auto h-[30px] md:h-[40px] flex justify-center items-center gap-2 bg-white rounded-lg ">
         <h1 className='greytext'>Filter by date range</h1>
         <FaAngleDown color='grey'/>
         </div>
