@@ -13,10 +13,10 @@ import Section2 from './Components/Section2';
 const App = () => {
   return (
     <div>
-      <div className="main-container w-full h-[100vh] flex">
+      <div className="main-container w-full bg-containerGray h-[100vh] flex">
 <Sidebar/>
 
-    <div className="container h-full w-[85%] bg-containerGray">
+    <div className="container h-full w-[85%] mx-5 bg-containerGray">
 
     <TopNav/>
     <Section1/>

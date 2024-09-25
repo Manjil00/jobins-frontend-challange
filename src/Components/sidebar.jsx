@@ -2,7 +2,7 @@ import React from 'react';
 
 const Sidebar = () => {
 return (
-<div className="sidebar h-full w-[35%] md:w-[20%] bg-white ">
+<div className="sidebar h-full w-[35%] md:w-[20%] bg-white">
 
 <div className="Topbar mt-3 bg-white h-auto flex justify-start items-start w-full">
 <img src="../images/logo.png" className="ml-2 h-[20px] w-[20px] md:h-auto md-w-auto" alt="Logo"/>

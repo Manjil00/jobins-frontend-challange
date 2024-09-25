@@ -24,8 +24,8 @@ return (
 {/* Part2 */}
 <div className="info gap-3 md:ml-20 md:mr-20">
 <h1 className='greytext'>PERSONAL INFORMATION</h1>
-<h1 className=' text-black font font-mainfont  text-xs md:text-sm mt-6'>Contact Number: <span className='ml-2 greytext'>(201) 555-0124</span></h1>
-<h1 className=' text-black font font-mainfont  text-xs md:text-sm'>Date of Birth:                   <span className='ml-2 greytext'>1,Jan, 1985</span></h1>
+<h1 className=' text-black font font-mainfont  text-xs md:text-sm mt-6'>Contact Number: <span className='text-xs md:text-sm text-slate-500 font-mainfont font-normal'>(201) 555-0124</span></h1>
+<h1 className=' text-black font font-mainfont  text-xs md:text-sm'>Date of Birth:<span className='ml-2 greytext'>1,Jan, 1985</span></h1>
 <h1 className=' text-black font font-mainfont text-xs md:text-sm'>Member Since:<span className='ml-2 greytext'>3,March,2023</span></h1>
 </div>
 <VerticalLine/>

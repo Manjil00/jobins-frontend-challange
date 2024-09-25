@@ -2,7 +2,7 @@ import React from 'react';
 
 const TopNav = () => {
 return (
-<div className="dashNav flex justify-between items-center bg-white mt-3">
+<div className="dashNav flex justify-between items-center bg-containerGray mt-3">
 
 <h1 className='font-mainfont font-bold text-lg md:text-2xl ml-3'>Dashboard</h1>
 

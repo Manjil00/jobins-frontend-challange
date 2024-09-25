@@ -14,7 +14,7 @@ return (
 
 <div className="part1&2 flex ">
   {/* //Salesand Cost */}
-<div className="SalesandCost w-[398px] h-[180px]  md:h-auto md:w-auto bg-white rounded-xl mt-3 md:ml-8 flex p-3">
+<div className="SalesandCost w-[398px] h-[180px]  md:h-auto md:w-auto bg-white rounded-xl mt-3 md:ml-1 flex p-3">
 <img src="../images/business-and-finance.png" className=' bg-white  ml-2 mt-14 md:mt-16 h-[40px] w-[40px] md:h-[73px] md:w-[73px]' alt="business-and-finance"/>
 <div className="SaleCosts flex flex-col md:ml-10">
 <h1 className=' text-xs md:text-xl font-bold text-black font-mainfont ml-5 mt-3'>Total Sales <br className='block md:hidden'/>and Costs</h1>
