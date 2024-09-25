@@ -3,3 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.greytext{
+    @apply text-slate-500 font-mainfont font-normal ml-1 md:mx-3 text-xs md:text-sm;
+}

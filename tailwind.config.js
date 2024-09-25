@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         mainfont: ['"Public Sans"', 'sans-serif'],
       },
+      colors: {
+        containerGray: '#f5f5f5',
+      },
     },
   },
   plugins: [],
