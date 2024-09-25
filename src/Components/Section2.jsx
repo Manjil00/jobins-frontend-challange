@@ -1,8 +1,7 @@
 import React from 'react'
 
 //Comnponents
-import VerticalLine from './Components/VerticalLine';
-
+import VerticalLine from './VerticalLine';
 
 const Section2 = () => {
 return (
@@ -25,9 +24,9 @@ return (
 {/* Part2 */}
 <div className="info gap-3 md:ml-20 md:mr-20">
 <h1 className='greytext'>PERSONAL INFORMATION</h1>
-<h1 className=' text-black font font-mainfont font-light text-xs md:text-sm mt-6'>Contact Number: <span className='ml-2 greytext'>(201) 555-0124</span></h1>
-<h1 className=' text-black font font-mainfont font-light text-xs md:text-sm'>Date of Birth:                   <span className='ml-2 greytext'>1,Jan, 1985</span></h1>
-<h1 className=' text-black font font-mainfont font-light text-xs md:text-sm'>Member Since:<span className='ml-2 greytext'>3,March,2023</span></h1>
+<h1 className=' text-black font font-mainfont  text-xs md:text-sm mt-6'>Contact Number: <span className='ml-2 greytext'>(201) 555-0124</span></h1>
+<h1 className=' text-black font font-mainfont  text-xs md:text-sm'>Date of Birth:                   <span className='ml-2 greytext'>1,Jan, 1985</span></h1>
+<h1 className=' text-black font font-mainfont text-xs md:text-sm'>Member Since:<span className='ml-2 greytext'>3,March,2023</span></h1>
 </div>
 <VerticalLine/>
 </div>
@@ -36,7 +35,7 @@ return (
 {/* Part3 */}
 <div className="shippingAddress  h-auto md:h-auto md:mt-0 md:ml-20 mt-4 ">
 <h1 className='greytext'>SHIPPING ADDRESS</h1>
-<h1 className='text-black font-mainfont font-light text-xs md:text-sm mt-3 md:mt-5 '>3517 W.Gray St. Utica, Pennsylvania 578667</h1>
+<h1 className='text-black font-mainfont text-xs md:text-sm mt-3 md:mt-5 '>3517 W.Gray St. Utica, Pennsylvania 578667</h1>
 
 <div className="shippingInsights flex  ">
 <h1 className='text-black font-mainfont font-bold text-sm md:text-xl mt-3'>150 <span className='greytext'> <br/>Total Order </span></h1>
@@ -47,16 +46,16 @@ return (
 </div>
 
 <div className="options rounded-b-xl h-[50px] w-full mt-4 md:mt-5 gap-5 flex cursor-pointer" >
-    <div className="line  h-[40px] bg-white  hover:bg-blue-700 ml-5">
-    <h1 className='font-mainfont h-auto w-auto text-xs md:text-sm  bg-white p-2'>All Orders</h1>
+    <div className="line  h-[45px] bg-white  hover:bg-blue-700 ml-5">
+    <h1 className='font-mainfont h-[40px] w-auto text-xs md:text-sm  bg-white p-2'>All Orders</h1>
     </div>
 
-    <div className="line  h-[40px] bg-white  hover:bg-blue-700 ml-5 cursor-pointer">
-    <h1 className='font-mainfont h-auto w-auto text-xs md:text-sm bg-white p-2'>Completed</h1>
+    <div className="line  h-[45px] bg-white  hover:bg-blue-700 ml-5 cursor-pointer">
+    <h1 className='font-mainfont h-[40px] w-auto text-xs md:text-sm bg-white p-2'>Completed</h1>
     </div>
 
-    <div className="line h-[40px] bg-white hover:bg-blue-700 ml-5 cursor-pointer">
-    <h1 className='font-mainfont h-auto w-auto text-xs md:text-sm bg-white p-2'>Canceled</h1>
+    <div className="line h-[45px] bg-white hover:bg-blue-700 ml-5 cursor-pointer">
+    <h1 className='font-mainfont h-[40px] w-auto text-xs md:text-sm bg-white p-2'>Canceled</h1>
     </div>
 </div>
 

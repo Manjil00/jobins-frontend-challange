@@ -15,17 +15,17 @@ return (
 
     <div className='Dash-Router flex mt-3'>
     <img src="../icons/smart-home.png" className="h-[20px] w-[20px] ml-2 md:mx-3" alt="Logo"/>
-    <h1 className='greytext hover:text-black hover:font-bold'>Dashboard</h1>
+    <h1 className='greytext hover:text-black hover:font-bold cursor-pointer'>Dashboard</h1>
     </div>
 
     <div className='OrderManagement-Router flex mt-3'>
     <img src="../icons/shopping-cart.png" className="h-[20px] w-[20px] ml-2 md:mx-3" alt="Logo"/>
-    <h1 className='greytext hover:text-black hover:font-bold'>Order <br/>Management</h1>
+    <h1 className='greytext hover:text-black hover:font-bold cursor-pointer'>Order <br/>Management</h1>
     </div>
 
     <div className='Brand-Router flex mt-3'>
     <img src="../icons/star.png" className="h-[20px] w-[20px] ml-2 md:mx-3" alt="Logo"/>
-    <h1 className='greytext hover:text-black hover:font-bold'>Brand</h1>
+    <h1 className='greytext hover:text-black hover:font-bold cursor-pointer'>Brand</h1>
     </div>
 
 </div>
@@ -35,12 +35,12 @@ return (
 
     <div className='ADD-Router flex mt-3'>
     <img src="../icons/circle-plus.png" className="h-[20px] w-[20px] ml-2 md:mx-3" alt="Logo"/>
-    <h1 className='greytext hover:text-black hover:font-bold'>Add Products</h1>
+    <h1 className='greytext hover:text-black hover:font-bold cursor-pointer'>Add Products</h1>
     </div>
 
     <div className='LIST-Router flex mt-3'>
     <img src="../icons/box.png" className="h-[20px] w-[20px] ml-2 md:mx-3" alt="Logo"/>
-    <h1 className='greytext hover:text-black hover:font-bold'>Product List</h1>
+    <h1 className='greytext hover:text-black hover:font-bold cursor-pointer'>Product List</h1>
     </div>
 
 </div>
