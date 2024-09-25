@@ -113,7 +113,7 @@ return (
 
         <div className=" paginationsbtn flex items-center space-x-2">
         <button className="px-3 py-1 border rounded" onClick={handlePrev} disabled={currentPage===0}>&lt;</button>
-        <button className="px-3 py-1 border rounded bg-blue-500 text-white">1</button>
+        <button className="px-3 py-1 border rounded bg-blue-500 text-white">0</button>
     
         {Array.from({ length: 5 }, (_, index) => {
           const pageNum = currentPage - 2 + index; // Center around currentPage
