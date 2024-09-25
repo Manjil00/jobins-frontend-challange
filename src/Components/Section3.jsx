@@ -15,11 +15,11 @@ return (
         <div className="searchbar flex">
         <input type="text" placeholder="Search" className="greytext  w-[80px] p-2 md:w-[200px] h-[30px] md:h-[40px] flex justify-center items-center
         bg-white rounded-tl-lg rounded-bl-lg cursor-text"/>
-        <IoSearch className='bg-white h-[40px] w-[40px] rounded-tr-lg rounded-br-lg cursor-pointer ml-[-12px] ' color='grey'/>
+        <IoSearch className='bg-white h-[20px] md:h-[40px] w-[20px] md:w-[40px] rounded-tr-lg rounded-br-lg cursor-pointer ml-[-12px] ' color='grey'/>
         </div>
         </div>
 
-        <div className="Filtercursor-pointer p-2 w-[80px] md:w-auto h-[30px] md:h-[40px] flex justify-center items-center gap-2 bg-white rounded-lg ">
+        <div className="Filtercursor-pointer p-2 w-auto h-[30px] md:h-[40px] flex justify-center items-center gap-2 bg-white rounded-lg ">
         <h1 className='greytext'>Filter by date range</h1>
         <FaAngleDown color='grey'/>
         </div>

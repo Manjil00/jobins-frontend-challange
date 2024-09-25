@@ -24,7 +24,31 @@ const App = () => {
     <Section2/>
     <Section3/>
       
-    
+    <div className="Section4 mt-5 bg-red-800 h-[400px]] w-full">
+      <div className="bgtable bg-blue-800 text-white  h-[300px] w-full">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Customer</th>
+          <th>Date</th>
+          <th>Total</th>
+          <th>Method</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <td>001</td>
+        <td>Manjil</td>
+        <td>2000/01/14</td>
+        <td>$2,456</td>
+        <td>CC</td>
+        <td className='text-yellow-500'>Pending</td>
+        <td className='text-blue-500 cursor-pointer'>View Details</td>
+      </tbody>
+      </div>
+      
+    </div>
 
 
     </div>
