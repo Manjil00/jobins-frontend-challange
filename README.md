@@ -7,4 +7,4 @@ This project is a React-based dashboard for managing product orders, tracking sa
 ## Screenshots
 
 ![App Screenshot](public/readmeimages/Dashboard1.png)
-![App Screenshot](../frontend/public/readmeimages/Dashboard1.png)
+![App Screenshot](public/readmeimages/Dashboard2.png)
