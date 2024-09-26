@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React, { useEffect } from 'react';
 
 //Components
 import Progressbar from './progressbar';
@@ -8,12 +7,25 @@ import { FaChevronUp } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa6";
 import VerticalLine from './VerticalLine';
 
+//ANIMATIONS IMPORT
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 const Section1 = () => {
+
+  const offset = 300;
+  const duration = 600;
+  useEffect(()=>{
+    document.title = "Jobins Dashboard";
+    Aos.init({offset:100,duration:600});
+},[offset,
+    duration])
+
 return (
 <div className="Section1  flex flex-col md:flex-row w-full h-auto ">
 
 
-<div className="part1&2 flex ">
+<div className="part1&2 flex " data-aos="fade-right">
   {/* //Salesand Cost */}
 <div className="SalesandCost w-[398px] h-[180px]  md:h-[250px] md:w-[550px] bg-white rounded-xl mt-3 md:ml-1 flex p-3">
 <img src="../images/business-and-finance.png" className=' bg-white  ml-2 mt-14 md:mt-16 h-[40px] w-[40px] md:h-[73px] md:w-[73px]' alt="business-and-finance"/>
@@ -42,7 +54,7 @@ return (
 
 
 {/* //CountryWiseSales */}
-<div className="CountrywiseSales md:w-[600px] h-auto flex flex-col mt-3 md:ml-8 bg-white rounded-xl p-3">
+<div className="CountrywiseSales md:w-[600px] h-auto flex flex-col mt-3 md:ml-8 bg-white rounded-xl p-3" data-aos="fade-left">
 {/* US */}
 <div className="us flex justify-between mt-4 gap-3">
 <img src='../images/us.png' className='h-[40px] w-[40px]' alt='usa'/>

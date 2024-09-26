@@ -8,7 +8,7 @@ This project is a React-based dashboard for managing product orders, tracking sa
 
 ![App Screenshot](public/readmeimages/Dashboard1.png)
 ![App Screenshot](public/readmeimages/Dashboard2.png)
-<<<<<<< HEAD
+
 
 ## Tech Stack
 **Client:** React, TailwindCSS
