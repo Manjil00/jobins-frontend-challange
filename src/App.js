@@ -16,11 +16,11 @@ import 'aos/dist/aos.css';
 const App = () => {
 
   const offset = 300;
-  const duration = 600;
+  const duration = 800;
 
   useEffect(()=>{
     document.title = "Jobins Dashboard";
-    Aos.init({offset:100,duration:600});
+    Aos.init({offset:100,duration:800});
 },[offset,
     duration])
 
