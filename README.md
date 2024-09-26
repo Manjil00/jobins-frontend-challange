@@ -1,5 +1,5 @@
 
-# Design-To-Code Intership Challange By Jobins
+# Design-To-Code Internship Challange By Jobins
 ### Submitted by: Manjil Maharjan
 
 This project is a React-based dashboard for managing product orders, tracking sales and profits, and user information. The dashboard is fully responsive and includes features like pagination, search, and multiple page navigation via React Router. It also uses mock data generated from Mockaroo for testing and development.
@@ -8,6 +8,7 @@ This project is a React-based dashboard for managing product orders, tracking sa
 
 ![App Screenshot](public/readmeimages/Dashboard1.png)
 ![App Screenshot](public/readmeimages/Dashboard2.png)
+<<<<<<< HEAD
 
 ## Tech Stack
 **Client:** React, TailwindCSS
@@ -23,3 +24,5 @@ This project is a React-based dashboard for managing product orders, tracking sa
 
 If you have any feedback, please reach out to us at
 business.manzil01@gmail.com
+=======
+>>>>>>> f62f30de06a21492493daec1cc40e3d49100fc69
