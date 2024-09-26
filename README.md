@@ -25,4 +25,3 @@ This project is a React-based dashboard for managing product orders, tracking sa
 If you have any feedback, please reach out to us at
 business.manzil01@gmail.com
 =======
->>>>>>> f62f30de06a21492493daec1cc40e3d49100fc69
