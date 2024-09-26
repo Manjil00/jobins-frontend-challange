@@ -27,12 +27,13 @@ const App = () => {
   return (
     <div>
       <div className="main-container w-full bg-containerGray h-[100vh] flex">
-<Sidebar/>
+  <div className="aos" data-aos="fade-right"><Sidebar/></div>
 
     <div className="container h-full w-[85%] md:mx-5 bg-containerGray">
 
     <div className="aos"data-aos="fade-up"> <TopNav/></div>
     <Section1/>
+     {/* animations added in components in section 1 */}
     <div className="aos" data-aos="fade-up"><Section2/></div>
     <div className="aos" data-aos="fade-up"><Section3/></div>
   
